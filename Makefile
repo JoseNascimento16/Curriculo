@@ -5,6 +5,7 @@ all: clean build
 build:
 	mkdir -p static
 	mkdir -p public
+	python\Scripts\activate.bat
 	$(python) manage.py collectstatic --noinput
 	$(python) manage.py distill-local --force
 
