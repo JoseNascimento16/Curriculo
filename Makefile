@@ -1,4 +1,4 @@
-python=/usr/bin/env python3
+python=/usr/bin/env python
 
 all: clean build
 
