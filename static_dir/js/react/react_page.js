@@ -17,11 +17,9 @@
 function Page() {
     return (
         <div>
-            <Header />
 
             <MainContent />
             
-            <Footer />
 
         </div>
     )
